@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MiningCalc</string>
+
+    <string-array name="titles">
+        <item>USD</item>
+        <item>Портфолио</item>
+        <item>Новости</item>
+    </string-array>
+
+    <string name="quantity_crypto">Количество криптовалюты</string>
+    <string name="name_crypto">Название криптовалюты</string>
+    <string name="add">Добавить</string>
+    <string name="change_language">Сменить язык</string>
+    <string name="currencies">Монеты</string>
+    <string name="portfolio">Портфолио</string>
+    <string name="news">Новости</string>
+    <string name="add_currency">Добавить элемент</string>
+    <string name="change_language_label">Смена языка</string>
+    <string name="model">Модель</string>
+    <string name="price">Стоимость</string>
+    <string name="eth_income">ETH</string>
+    <string name="etc_income">ETC</string>
+    <string name="exp_income">EXP</string>
+    <string name="income">Прибыль</string>
+    <string name="payback">Окупаемость</string>
+    <string name="gpus">Видеокарты</string>
+    <string name="crypto_name">Название</string>
+    <string name="quantity">Количество</string>
+    <string name="refresh">Обновить</string>
+    <string name="ubq_income">UBQ</string>
+    <string name="rvn_income">RVN</string>
+    <string name="bean_income">BEAN</string>
+
+    <plurals name="days">
+        <item quantity="one">день</item>
+        <item quantity="other">дней</item>
+    </plurals>
+</resources>

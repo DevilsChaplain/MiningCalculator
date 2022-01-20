@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MiningCalc</string>
+
+    <string-array name="titles">
+        <item>USD</item>
+        <item>Portfolio</item>
+        <item>News</item>
+    </string-array>
+
+    <string name="quantity_crypto">Quantity of crypto</string>
+    <string name="name_crypto">Name of crypto</string>
+    <string name="add">Add</string>
+    <string name="change_language">Change language</string>
+    <string name="currencies">Currencies</string>
+    <string name="portfolio">Portfolio</string>
+    <string name="news">News</string>
+    <string name="add_currency">Add</string>
+    <string name="change_language_label">Changing language</string>
+    <string name="model">Model</string>
+    <string name="price">Price</string>
+    <string name="eth_income">ETH</string>
+    <string name="etc_income">ETC</string>
+    <string name="exp_income">EXP</string>
+    <string name="income">Income</string>
+    <string name="payback">Payback</string>
+    <string name="gpus">Gpus</string>
+    <string name="crypto_name">Symbol</string>
+    <string name="quantity">Quantity</string>
+    <string name="refresh">Refresh</string>
+    <string name="ubq_income">UBQ</string>
+    <string name="rvn_income">RVN</string>
+    <string name="bean_income">BEAN</string>
+
+    <plurals name="days">
+        <item quantity="one">day</item>
+        <item quantity="other">days</item>
+    </plurals>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.gpu_stat.GpuStatFragment">
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/gpu_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+
+    <HorizontalScrollView
+        android:id="@+id/result_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:id="@+id/result_table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:padding="32dp"
+                    android:text="@string/model" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:padding="32dp"
+                    android:text="@string/price" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:padding="32dp"
+                    android:text="@string/eth_income" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:padding="32dp"
+                    android:text="@string/etc_income" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:padding="32dp"
+                    android:text="@string/exp_income" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:padding="32dp"
+                    android:text="@string/ubq_income" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:padding="32dp"
+                    android:text="@string/rvn_income" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:padding="32dp"
+                    android:text="@string/bean_income" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:padding="32dp"
+                    android:text="@string/income" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:padding="32dp"
+                    android:text="@string/payback" />
+            </TableRow>
+
+        </TableLayout>
+
+    </HorizontalScrollView>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="142dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

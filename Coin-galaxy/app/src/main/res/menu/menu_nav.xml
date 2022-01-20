@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_usd"
+        android:icon="@drawable/ic_dollar"
+        android:title="@string/currencies" />
+
+    <item
+        android:id="@+id/nav_gpus"
+        android:icon="@drawable/ic_gpu"
+        android:title="@string/gpus" />
+
+    <item
+        android:id="@+id/nav_portfolio"
+        android:icon="@drawable/ic_portfolio"
+        android:iconTint="@color/black"
+        android:title="@string/portfolio" />
+
+    <item
+        android:id="@+id/nav_news"
+        android:icon="@drawable/ic_news"
+        android:title="@string/news" />
+
+</menu>
